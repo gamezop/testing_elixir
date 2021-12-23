@@ -1,5 +1,4 @@
 defmodule TestingElixir.Repo.Migrations.CreateUsersTable do
-  use Ecto.Migration
 
   use Ecto.Migration
 

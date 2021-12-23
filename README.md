@@ -10,3 +10,10 @@
 
 - configure the [repo](https://hexdocs.pm/ecto/Ecto.Repo.html) in `config/test.exs`
 
+- Direct Db insert testing.
+
+- [Mox](https://hexdocs.pm/mox/Mox.html) - Mocking library
+
+- Async running test using `async: true`
+
+- `mix test --cover`
