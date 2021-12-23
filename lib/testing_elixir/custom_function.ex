@@ -41,12 +41,12 @@ defmodule TestingElixir.CustomFunction do
   end
 
   def rev(list) do
-    # if Enum.member?(list, 40) do
-    #   [40]
-    # else
-    #   list |> Enum.reverse()
-    # end
-    list |> Enum.reverse()
+    if Enum.member?(list, 40) do
+      [40]
+    else
+      list |> Enum.reverse()
+    end
+    # list |> Enum.reverse()
   end
 
   # def ping(urls) when is_list(urls), do: Enum.map(urls, &ping/1)

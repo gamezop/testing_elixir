@@ -54,7 +54,7 @@ defmodule TestingElixir.CustomFunctionTest do
 
   property "property test" do
     check all lst <- list_of(integer()) do
-      # lst |> IO.inspect()
+      lst |> IO.inspect()
       assert lst |> CustomFunction.rev() |> CustomFunction.rev() == lst
     end
 end
