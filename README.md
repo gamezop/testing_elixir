@@ -13,7 +13,8 @@
 ## Tests Covered -> 
 - Example test
 - Doc test
-- Db/Mock test
+- Db test
+- Mock test
 - GenServer test
 - Property test
 
